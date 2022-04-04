@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --white-color: #FFF;
+    --purple-bold: #222374;
+    --black-color: #000;
+    --gray-color: #CCCCCC;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+nav a, a:hover {
+    font-size: 14px;
+    color: var(--white-color);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+main {
+    margin: 0;
+}
+
+footer {
+    background-color: var(--black-color);
+    height: 262px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#instaFit {
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    padding: 20px 0 20px 0;
+    background-color: var(--purple-bold);
+}
+
+#title-section-1 {
+    color: var(--white-color);
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+#title-section-2 {
+    color: var(--color-red);
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.card-fit {
+    background-color:  var(--gray-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card-fit p {
+    font-size: 14px;
+} 
+
+.card-fit h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#modalities {
+    padding: 20px 0 20px 0;
+    background-color: var(--white-color);
+}
+
+.sport-modality {
+    color: var(--white-color);
+    background-color:  var(--purple-bold);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.sport-modality p {
+    font-size: 14px;
+}
+
+.sport-modality h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#footer-insta {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-insta img {
+    padding-left: 6px;
+}
+
+#footer-insta a {
+    color: var(--white-color);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#footer-twt {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#footer-twt a {
+    color: var(--white-color);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#rights-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rights-address p, address {
+    color: var(--white-color);
+    font-size: 14px;
+}
